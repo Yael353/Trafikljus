@@ -1,0 +1,114 @@
+* {
+    background-color: gray;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container{
+    background-color: white;
+    width: 200px;
+    height: 680px;
+    border-style: ridge;
+    padding: 3px;
+    position: relative;
+
+}
+
+.redbox{
+    background-color: red;
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkred;
+    margin: 5px;
+    position: relative;
+}
+
+.container2{
+   background-color: white;
+   width: 200px;
+   height: 680px;
+   border-style:ridge;
+   padding: 3px;
+   position: relative;
+
+}
+
+.red-box{
+    background-color: red;
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkred;
+    margin: 5px;
+    position: relative;
+
+}
+
+.yellowbox{
+    background-color: rgb(255, 255, 0);
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkgoldenrod;
+    margin: 5px;
+    position: relative;
+}
+
+.greenbox{
+    
+    background-color: green;
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkgreen;
+    margin: 5px;
+    position: relative;
+}
+
+.red-inner {
+    height: 50%;
+    width: 100%;
+    color: red;
+    opacity: 0.5;
+    position: absolute;
+    bottom:0;
+    
+}
+.yellow-box{
+    background-color: rgb(255, 255, 0);
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkgoldenrod;
+    margin: 5px;
+    position: relative;
+}
+.yellow-inner{
+    height: 50%;
+    width: 50%;
+    color: yellow;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.green-box{
+    
+    background-color: green;
+    width: 170px;
+    height: 200px;
+    border: 10px solid darkgreen;
+    margin: 5px;
+    position: relative;
+}
+
+.green-inner{
+    height: 50%;
+    width: 50%;
+    color: green;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
